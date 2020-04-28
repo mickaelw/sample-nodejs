@@ -1,0 +1,7 @@
+{
+  "host": "uat_eventbus.ril-grf.com",
+  "port": 5672,
+  "vHost": "chatbot",
+  "username": "chatbot",
+  "password": "chatBot0x#"
+}

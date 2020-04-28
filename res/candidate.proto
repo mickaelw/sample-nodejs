@@ -1,0 +1,14 @@
+syntax = "proto3";
+package chatbot;
+option java_package = "com.techagency.randstad.chatbot.model";
+option java_outer_classname = "ChatBotEvent";
+
+message Candidate {
+    string applicationId = 1;
+    Action action = 2;
+}
+
+enum Action {
+    CREATED = 0;
+    UPDATED = 1;
+}

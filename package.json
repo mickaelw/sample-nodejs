@@ -1,0 +1,15 @@
+{
+  "name": "randy-amqp-client",
+  "version": "0.1.0",
+  "description": "Randy MQ client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "info@technology-agency.com",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "~0.5.5",
+    "protobufjs": "~6.9.0"
+  }
+}
