@@ -4,12 +4,12 @@ const proto = require('protobufjs');
 
 const fs = require('fs');
 
-const candidatesQueueName = 'q-chatbot_candidates--poc';
 const settingsPath = 'res/settings.json';
 const candidateProtoPath = 'res/candidate.proto';
 
 const settingsString = fs.readFileSync(settingsPath, 'utf-8');
 const settings = JSON.parse(settingsString);
+const candidatesQueueName = settings.queues.candidates;
 
 let CandidateType = null;
 let CandidateActionEnum = null;

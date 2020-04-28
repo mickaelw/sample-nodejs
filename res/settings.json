@@ -3,5 +3,8 @@
   "port": 5672,
   "vHost": "chatbot",
   "username": "chatbot",
-  "password": "chatBot0x#"
+  "password": "chatBot0x#",
+  "queues": {
+    "candidates": "q-chatbot_candidates--poc"
+  }
 }
